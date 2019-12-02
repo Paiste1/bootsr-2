@@ -9,6 +9,22 @@ html, body, header, #intro {
 .top-nav-collapse {
 	background-color: #24355C; 
 }
+.row.text-center i {
+	margin-right: 2px;
+}
+.map-container-google-1{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-google-1 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 @media (max-width: 768px) {
 	.navbar:not(.top-nav-collapse) {
 		background: #24355C; 
